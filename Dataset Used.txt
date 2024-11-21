@@ -1,0 +1,145 @@
+DATASET USED FOR THE PROJECT:
+
+
+For Department Table:
+
+1001,'Computer Science','Dr. Joseph',1955
+1002,'Electrical','Dr. Angelina',1958
+1003,'Mechanical','Dr. Christine',1961
+1004,'Chemical','Dr. David',1962
+1005,'Civil','Dr. Agatha',1963
+
+
+
+For Student Table:
+
+'19BCE1762',1001,'William Smith','william.smith@example.com',TO_DATE('2001-05-15','YYYY-MM-DD'),TO_DATE('2019-08-22','YYYY-MM-DD'),'123 Main St','California','Los Angeles','USA',2023
+'20BCE1162',1001,'Jane Smith','jane.smith@example.com',TO_DATE('2002-03-10','YYYY-MM-DD'),TO_DATE('2020-12-05','YYYY-MM-DD'),'456 Maple Ave','Texas','Houston','USA',2024
+'21BCE1320',1001,'Emily Johnson','emily.johnson@example.com',TO_DATE('2003-11-25','YYYY-MM-DD'),TO_DATE('2021-01-15','YYYY-MM-DD'),'789 Oak Dr','New York','New York','USA',2025 
+'18BEE1420',1002,'Michael Brown','michael.brown@example.com',TO_DATE('2000-07-30','YYYY-MM-DD'),TO_DATE('2018-09-12','YYYY-MM-DD'),'321 Pine St','Florida','Miami','USA',2022
+'22BEE1298',1002,'Chris Williams','chris.williams@example.com',TO_DATE('2004-01-17','YYYY-MM-DD'),TO_DATE('2022-04-25','YYYY-MM-DD'),'654 Cedar Ct','Illinois','Chicago','USA',2026
+'23BEE1300',1002,'Ashley Jones','ashley.jones@example.com',TO_DATE('2005-06-22','YYYY-MM-DD'),TO_DATE('2023-03-18','YYYY-MM-DD'),'987 Birch Ln','Washington','Seattle','USA',2027
+'20BMC1301',1003,'David Garcia','david.garcia@example.com',TO_DATE('2002-02-14','YYYY-MM-DD'),TO_DATE('2020-11-05','YYYY-MM-DD'),'135 Walnut Blvd','Arizona','Phoenix','USA',2024
+'19BMC1421',1003,'Samantha Martinez','samantha.martinez@example.com',TO_DATE('2001-09-12','YYYY-MM-DD'),TO_DATE('2019-07-30','YYYY-MM-DD'),'246 Spruce Way','Colorado','Denver','USA',2023
+'21BMC1001',1003,'Matthew Rodriguez','matthew.rodriguez@example.com',TO_DATE('2003-04-20','YYYY-MM-DD'),TO_DATE('2021-10-02','YYYY-MM-DD'),'357 Ash Dr','Nevada','Las Vegas','USA',2025
+'22BCH1221',1004,'Laura Hernandez','laura.hernandez@example.com',TO_DATE('2004-08-28','YYYY-MM-DD'),TO_DATE('2022-02-14','YYYY-MM-DD'),'468 Elm St','Oregon','Portland','USA',2026
+'20BCH1763',1004,'Linda Taylor','linda.taylor@example.com',TO_DATE('2002-05-10','YYYY-MM-DD'),TO_DATE('2020-06-01','YYYY-MM-DD'),'808 Peach St','Ohio','Columbus','USA',2024
+'19BCH1881',1004,'Robert Moore','robert.moore@example.com',TO_DATE('2001-10-05','YYYY-MM-DD'),TO_DATE('2019-12-15','YYYY-MM-DD'),'909 Plum Dr','Colorado','Denver','USA',2023
+'21BCV1024',1005,'James Jackson','james.jackson@example.com',TO_DATE('2003-03-15','YYYY-MM-DD'),TO_DATE('2021-05-10','YYYY-MM-DD'),'1010 Fig Ln','Virginia','Richmond','USA',2025
+'22BCV1231',1005,'Patricia White','patricia.white@example.com',TO_DATE('2004-12-04','YYYY-MM-DD'),TO_DATE('2022-09-28','YYYY-MM-DD'),'1111 Olive Ct','North Carolina','Charlotte','USA',2026
+'18BCV1101',1005,'Jennifer Harris','jennifer.harris@example.com',TO_DATE('2000-11-11','YYYY-MM-DD'),TO_DATE('2018-10-30','YYYY-MM-DD'),'1212 Grapefruit Ave','Georgia','Atlanta','USA',2022
+
+
+
+For Book Table:
+
+3000, 'The Great Gatsby', 'F. Scott Fitzgerald', 1
+3001, 'To Kill a Mockingbird', 'Harper Lee', 2
+3002, '1984', 'George Orwell', 1
+3003, 'Pride and Prejudice', 'Jane Austen', 3
+3004, 'Moby Dick', 'Herman Melville', 1
+3005, 'The Catcher in the Rye', 'J.D. Salinger', 2
+3006, 'War and Peace', 'Leo Tolstoy', 1
+3007, 'The Odyssey', 'Homer', 3
+3008, 'The Brothers Karamazov', 'Fyodor Dostoevsky', 1
+3009, 'The Picture of Dorian Gray', 'Oscar Wilde', 2
+
+
+
+For LibraryStaff Table:
+
+4000, 'Alice Johnson', 'Librarian', TO_DATE('15-05-2010', 'DD-MM-YYYY')
+4001, 'Michael Smith', 'Assistant Librarian', TO_DATE('22-03-2015', 'DD-MM-YYYY')
+4002, 'Linda Williams', 'Library Technician', TO_DATE('10-07-2012', 'DD-MM-YYYY')
+4003, 'James Brown', 'Head Librarian', TO_DATE('01-02-2008', 'DD-MM-YYYY')
+4004, 'Patricia Taylor', 'Cataloger', TO_DATE('30-11-2016', 'DD-MM-YYYY')
+4005, 'Robert Davis', 'Reference Librarian', TO_DATE('17-08-2014', 'DD-MM-YYYY')
+4006, 'Jennifer Miller', 'Digital Services Librarian', TO_DATE('05-09-2019', 'DD-MM-YYYY')
+4007, 'William Wilson', 'Outreach Coordinator', TO_DATE('25-12-2011', 'DD-MM-YYYY')
+4008, 'Elizabeth Moore', 'Circulation Manager', TO_DATE('14-01-2020', 'DD-MM-YYYY')
+4009, 'David Taylor', 'Head of Acquisitions', TO_DATE('21-04-2018', 'DD-MM-YYYY')
+
+
+
+For Issue Table:
+
+2000, 4000, TO_DATE('15-06-2022', 'DD-MM-YYYY')
+2001, 4000, TO_DATE('22-06-2022', 'DD-MM-YYYY')
+2002, 4001, NULL
+2003, 4001, TO_DATE('07-07-2022', 'DD-MM-YYYY')
+2004, 4001, NULL
+2005, 4003, NULL
+2006, 4003, TO_DATE('28-07-2022', 'DD-MM-YYYY')
+2007, 4000, TO_DATE('04-08-2023', 'DD-MM-YYYY')
+2008, 4000, TO_DATE('11-08-2023', 'DD-MM-YYYY')
+2009, 4001, NULL
+2010, 4001, TO_DATE('18-08-2021', 'DD-MM-YYYY')
+2011, 4001, TO_DATE('15-02-2021', 'DD-MM-YYYY')
+2012, 4000, TO_DATE('10-06-2023', 'DD-MM-YYYY')
+2013, 4000, TO_DATE('20-09-2023', 'DD-MM-YYYY')
+2014, 4001, TO_DATE('08-08-2022', 'DD-MM-YYYY')
+2015, 4001, TO_DATE('08-08-2022', 'DD-MM-YYYY')
+2016, 4001, TO_DATE('12-01-2024', 'DD-MM-YYYY')
+2017, 4001, TO_DATE('01-02-2024', 'DD-MM-YYYY')
+
+
+
+For Borrows Table:
+
+'19BCE1762',3000
+'19BCE1762',3001
+'19BCE1762',3002
+'19BCE1762',3003
+'20BCE1162',3004
+'20BCE1162',3005
+'18BEE1420',3006
+'18BEE1420',3007
+'20BMC1301',3008
+'20BMC1301',3009
+'19BMC1421',3005
+'19BMC1421',3000
+'21BMC1001',3002
+'21BMC1001',3009
+'21BCE1320',3000
+'22BEE1298',3008
+'23BEE1300',3005
+'22BCH1221',3009
+
+
+
+For Issued_For Table:
+
+'19BCE1762',3000,2000,TO_DATE('08-06-2022', 'DD-MM-YYYY')
+'19BCE1762',3001,2001,TO_DATE('15-06-2022', 'DD-MM-YYYY')
+'19BCE1762',3002,2003,TO_DATE('01-07-2022', 'DD-MM-YYYY')
+'19BCE1762',3003,2006,TO_DATE('19-07-2022', 'DD-MM-YYYY')
+'20BCE1162',3004,2007,TO_DATE('30-07-2023', 'DD-MM-YYYY')
+'20BCE1162',3005,2008,TO_DATE('01-08-2023', 'DD-MM-YYYY')
+'18BEE1420',3006,2010,TO_DATE('12-08-2021', 'DD-MM-YYYY')
+'18BEE1420',3007,2011,TO_DATE('10-02-2021', 'DD-MM-YYYY')
+'20BMC1301',3008,2012,TO_DATE('04-06-2023', 'DD-MM-YYYY')
+'20BMC1301',3009,2013,TO_DATE('10-09-2023', 'DD-MM-YYYY')
+'19BMC1421',3005,2014,TO_DATE('01-07-2022', 'DD-MM-YYYY')
+'19BMC1421',3000,2015,TO_DATE('30-06-2022', 'DD-MM-YYYY')
+'21BMC1001',3002,2016,TO_DATE('07-01-2024', 'DD-MM-YYYY')
+'21BMC1001',3009,2017,TO_DATE('25-01-2024', 'DD-MM-YYYY')
+'21BCE1320',3000,2002,TO_DATE('15-10-2024', 'DD-MM-YYYY')
+'22BEE1298',3008,2004,TO_DATE('13-10-2024', 'DD-MM-YYYY')
+'23BEE1300',3005,2005,TO_DATE('10-10-2024', 'DD-MM-YYYY')
+'22BCH1221',3009,2009,TO_DATE('12-10-2024', 'DD-MM-YYYY')
+
+
+
+For Fine Table:
+
+500,TO_DATE('15-06-2022', 'DD-MM-YYYY'),2000
+200,TO_DATE('22-06-2022', 'DD-MM-YYYY'),2001
+300,TO_DATE('07-07-2022', 'DD-MM-YYYY'),2003
+150,TO_DATE('28-07-2022', 'DD-MM-YYYY'),2006
+250,TO_DATE('18-08-2021', 'DD-MM-YYYY'),2010
+100,TO_DATE('15-02-2021', 'DD-MM-YYYY'),2011
+350,TO_DATE('12-01-2024', 'DD-MM-YYYY'),2016
+200,TO_DATE('01-02-2024', 'DD-MM-YYYY'),2017
+
+
+
